@@ -1,4 +1,6 @@
-﻿# Designate guardian and ward in your own court
+﻿# 自分の宮廷の中の子供に、宮廷の中の人物を教育係として割り当てる。
+
+# Designate guardian and ward in your own court
 # This interaction is referenced in code! If it's renamed you have to ping a coder
 educate_child_interaction = {
 	category = interaction_category_friendly
