@@ -706,7 +706,8 @@ educate_child_interaction = {
 		}
 
 		modifier = { # The AI shouldn't change culture/faith of their children
-			add = -1000
+			# add = -1000
+			add = -10000
 				scope:secondary_recipient.culture = scope:actor.culture
 				scope:secondary_recipient.faith = scope:actor.faith
 				OR = {
