@@ -1173,7 +1173,8 @@ offer_ward_interaction = {
 		}
 
 		modifier = { # The AI shouldn't change culture/faith of their children
-			factor = 0
+			# factor = 0
+			add = -10000
 			OR = {
 				scope:convert_culture = yes
 				scope:convert_faith = yes
